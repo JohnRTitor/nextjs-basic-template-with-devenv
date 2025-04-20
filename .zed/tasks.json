@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Start NextJS Development Server",
+    "command": "pnpm dev",
+    // Whether to allow multiple instances of the same task to be run, or rather wait for the existing ones to finish, defaults to `false`.
+    "allow_concurrent_runs": false,
+    "reveal": "never",
+    "hide": "never",
+    "shell": "system",
+    "show_summary": true,
+    "show_output": true
+  },
+  {
+    "label": "Start NextJS Production Server",
+    "command": "pnpm start",
+    // Whether to allow multiple instances of the same task to be run, or rather wait for the existing ones to finish, defaults to `false`.
+    "allow_concurrent_runs": false,
+    "reveal": "never",
+    "hide": "never",
+    "shell": "system",
+    "show_summary": true,
+    "show_output": true
+  },
+  {
+    "label": "Build NextJS WebApp",
+    "command": "pnpm build",
+    // Whether to allow multiple instances of the same task to be run, or rather wait for the existing ones to finish, defaults to `false`.
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "hide": "on_success",
+    "shell": "system",
+    "show_summary": true,
+    "show_output": true
+  }
+]
